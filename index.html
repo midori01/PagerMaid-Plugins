@@ -1,42 +1,130 @@
 <!DOCTYPE html>
+<html lang="en-US">
 <head>
-    <title>无法访问！</title>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
-    <meta name="robots" content="noindex, nofollow"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
-    <link rel="stylesheet" id="cf_styles-css" href="https://cloudflare.com/cdn-cgi/styles/cf.errors.css" type="text/css"
-          media="screen,projection"/>
-    <link rel="stylesheet" id='cf_styles-ie-css' href="https://cloudflare.com/cdn-cgi/styles/cf.errors.ie.css"
-          type="text/css" media="screen,projection"/>
-    <style type="text/css">body {
-        margin: 0;
-        padding: 0
-    }</style>
-    <script type="text/javascript" src="https://cloudflare.com/cdn-cgi/scripts/zepto.min.js"></script>
-    <script type="text/javascript" src="https://cloudflare.com/cdn-cgi/scripts/cf.common.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script async src="https://lvlv.lv/umami/script.js" data-website-id="341d69e0-07ee-44c8-890d-b6320268da35"></script>
+    <title>ᴍɪᴅᴏʀɪ'ꜱ ᴘɢᴘ ʀᴇᴘᴏ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            margin-top: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .note {
+            font-weight: bold;
+            color: #ff5722;
+            background-color: #fff3e0;
+            border-radius: 3px;
+            padding: 2px 5px;
+            font-size: 0.9em;
+            display: inline-block;
+            margin-left: 10px;
+        }
+        .command {
+            font-family: "Courier New", Courier, monospace;
+            color: #4CAF50;
+            background-color: #e8f5e9;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        .command-container {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .plugin-name {
+            font-weight: bold;
+            color: #1E88E5;
+        }
+        footer {
+            color: black;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            width: 100%;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-<div id="cf-wrapper">
-    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">
-        请启用cookie。
-    </div>
-    <div id="cf-error-details" class="cf-error-details-wrapper">
-        <div class="cf-wrapper cf-header cf-error-overview">
-            <h1 data-translate="block_headline">抱歉，您已被阻止</h1>
+
+<header>
+    <h1>ᴍɪᴅᴏʀɪ'ꜱ ᴘɢᴘ ʀᴇᴘᴏ</h1>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Usage</h2>
+        <div class="command-container">
+            <span class="command">,apt_source add https://repo.lvlv.lv</span>
         </div>
-
-        <div class="cf-section cf-highlight">
-            <div class="cf-wrapper">
-                <div class="cf-screenshot-container cf-screenshot-full">
-
-                    <span class="cf-no-screenshot error"></span>
-
-                </div>
-            </div>
+        <div class="command-container">
+            <span class="command">,apt install &lt;plugin_name&gt;</span>
         </div>
-    </div>
+    </section>
+    
+    <section>
+        <h2>Plugins List</h2>
+        <ul>
+            <li><span class="plugin-name">traceroute</span> <span class="command">,t</span></li>
+            <li><span class="plugin-name">markdown</span> <span class="command">,m</span></li>
+            <li><span class="plugin-name">service</span> <span class="command">,service</span> <span class="note">Docker Unsupported</span></li>
+            <li><span class="plugin-name">speednext</span> <span class="command">,s</span> <span class="note">PGP ≥ 1.5.0</span></li>
+            <li><span class="plugin-name">speedtest</span> <span class="command">,s</span> <span class="note">PGP &lt; 1.5.0</span></li>
+            <li><span class="plugin-name">eatx</span> <span class="command">,x</span> <span class="note">PGP ≥ 1.5.0</span></li>
+            <li><span class="plugin-name">eatc</span> <span class="command">,x</span> <span class="note">PGP &lt; 1.5.0</span></li>
+            <li><span class="plugin-name">autochangename</span> <span class="note">apt search for details</span></li>
+            <li><a href="https://github.com/midori01/PagerMaid-Plugins" style="text-decoration: none;">…</a></li>
+        </ul>
+    </section>
 </div>
+
+<footer>
+    &copy; 2026 <a href="https://lvlv.lv">Midori</a>. All Rights Reserved.
+</footer>
+
 </body>
 </html>

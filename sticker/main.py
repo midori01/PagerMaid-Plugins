@@ -245,7 +245,7 @@ class Sticker:
 
 
 @listener(
-    command="s",
+    command="sticker",
     parameters="[贴纸包名/cancel]",
     description="保存贴纸到自己的贴纸包",
     need_admin=True,

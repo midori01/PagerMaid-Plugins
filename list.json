@@ -1,6 +1,186 @@
 {
     "list": [
         {
+            "name": "speednext",
+            "version": "1.020",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "8.6 kb",
+            "supported": true,
+            "des_short": "测速 (PGP≥1.5.0)",
+            "des": "指令：,s"
+        },
+        {
+            "name": "speedtest",
+            "version": "1.020",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "8.7 kb",
+            "supported": true,
+            "des_short": "测速 (PGP<1.5.0)",
+            "des": "指令：,s"
+        },
+        {
+            "name": "service",
+            "version": "1.013",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "1.7 kb",
+            "supported": true,
+            "des_short": "查看服务状态 (不支持 Docker)",
+            "des": "指令：,service"
+        },
+        {
+            "name": "traceroute",
+            "version": "2.01",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "2.6 kb",
+            "supported": true,
+            "des_short": "路由追踪",
+            "des": "指令：,t"
+        },
+        {
+            "name": "markdown",
+            "version": "1.0",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "1.6 kb",
+            "supported": true,
+            "des_short": "Markdown",
+            "des": "指令：,m"
+        },
+        {
+            "name": "eat",
+            "version": "1.355",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "25.3 kb",
+            "supported": true,
+            "des_short": "eat (beta)",
+            "des": "指令：,x"
+        },
+        {
+            "name": "eatx",
+            "version": "1.355",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "25.3 kb",
+            "supported": true,
+            "des_short": "eat (PGP≥1.5.0)",
+            "des": "指令：,x"
+        },
+        {
+            "name": "eatc",
+            "version": "1.355",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "25.3 kb",
+            "supported": true,
+            "des_short": "eat (PGP<1.5.0)",
+            "des": "指令：,x"
+        },
+        {
+            "name": "nmsl",
+            "version": "1.04",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "1.2 kb",
+            "supported": true,
+            "des_short": "封禁用户",
+            "des": "指令：,nmsl"
+        },
+        {
+            "name": "autochangename",
+            "version": "2.10",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "1.718 kb",
+            "supported": true,
+            "des_short": "自動更新 first_name (みどり 専用)",
+            "des": "自動更新 first_name (みどり 専用)"
+        },
+        {
+            "name": "autochangenamex_ja",
+            "version": "2.10",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "1.718 kb",
+            "supported": true,
+            "des_short": "自動更新 last_name (日本語 絵文字)",
+            "des": "自動更新 last_name (日本語 絵文字)"
+        },
+        {
+            "name": "autochangenamex_ko",
+            "version": "2.10",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "1.718 kb",
+            "supported": true,
+            "des_short": "自動更新 last_name (韓国語 絵文字)",
+            "des": "自動更新 last_name (韓国語 絵文字)"
+        },
+        {
+            "name": "autochangenamex_zh",
+            "version": "2.10",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "1.718 kb",
+            "supported": true,
+            "des_short": "自動更新 last_name (中国語 絵文字)",
+            "des": "自動更新 last_name (中国語 絵文字)"
+        },
+        {
+            "name": "autochangenamex_en",
+            "version": "2.10",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "1.718 kb",
+            "supported": true,
+            "des_short": "自動更新 last_name (英語 絵文字)",
+            "des": "自動更新 last_name (英語 絵文字)"
+        },
+        {
+            "name": "autochangename_ja",
+            "version": "1.10",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "1.718 kb",
+            "supported": true,
+            "des_short": "自動更新 last_name (日本語 時計)",
+            "des": "自動更新 last_name (日本語 時計)"
+        },
+        {
+            "name": "autochangename_ko",
+            "version": "1.10",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "1.718 kb",
+            "supported": true,
+            "des_short": "自動更新 last_name (韓国語 時計)",
+            "des": "自動更新 last_name (韓国語 時計)"
+        },
+        {
+            "name": "autochangename_zh",
+            "version": "1.10",
+            "section": "custom",
+            "maintainer": "midori",
+            "size": "1.718 kb",
+            "supported": true,
+            "des_short": "自動更新 last_name (中国語 時計)",
+            "des": "自動更新 last_name (中国語 時計)"
+        },
+        {
+            "name": "trace",
+            "version": "1.0",
+            "section": "custom",
+            "maintainer": "unknown",
+            "size": "20 kb",
+            "supported": true,
+            "des_short": "",
+            "des": ""
+        },
+        {
             "name": "xtao-some",
             "version": "1.051",
             "section": "daily",
@@ -9,16 +189,6 @@
             "supported": true,
             "des_short": "一大堆便民功能。",
             "des": "超多功能 例如 ,ip"
-        },
-        {
-            "name": "eat",
-            "version": "1.1181",
-            "section": "profile",
-            "maintainer": "SF_PICK",
-            "size": "21.308 kb",
-            "supported": false,
-            "des_short": "生成一张 吃头像 图片。",
-            "des": "这个人很懒，什么都没有留下。"
         },
         {
             "name": "abstract",
@@ -201,16 +371,6 @@
             "des": "列出本群premium用户数量(指令: ,premium)"
         },
         {
-            "name": "autochangename",
-            "version": "1.142",
-            "section": "profile",
-            "maintainer": "xtaodada、xiluo",
-            "size": "1.718 kb",
-            "supported": true,
-            "des_short": "自动更新 last_name 为时间等。",
-            "des": "每 30 秒自动更新 last_name 为时间等小玩意。"
-        },
-        {
             "name": "dc",
             "version": "1.025",
             "section": "chat",
@@ -337,7 +497,7 @@
             "maintainer": "xtaodada",
             "size": "3.991 kb",
             "supported": true,
-            "des_short": "测速。",
+            "des_short": "测速 (Ptyhon)",
             "des": "测速。\n指令：,speedtest"
         },
         {
@@ -1137,7 +1297,7 @@
             "maintainer": "xtaodada",
             "size": "4.501 kb",
             "supported": true,
-            "des_short": "speedtest_go 测速",
+            "des_short": "测速 (Golang)",
             "des": "测速。\n指令：,speedtest_go"
         },
         {
